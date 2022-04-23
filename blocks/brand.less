@@ -1,0 +1,37 @@
+@import "../vars";
+
+.brandbar_div{
+    height: 100px;
+    background-color: @white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 2px @gray_light;
+    margin-bottom: 4px;
+
+    div{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .socialtitle{
+            margin: 5px;
+            font-size: 20px;
+            color: @gray_dark;
+            font-weight: 700;
+            font-family: "Open Sans";
+        }    
+        p{
+            margin: 5px;
+            font-size: 14px;
+            line-height: 20px;
+            color: @gray_light;
+            font-weight: 400;
+            font-family: "Open Sans";
+        }        
+    }
+    img{
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,46 @@
+@import "../vars";
+
+.feature3_div{
+    background-color: @gray;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    .city_img{
+        margin-left: 10%;
+        box-shadow: 0px 0px 20px @gray_light
+    }
+
+    .left_feature3_div{
+        
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-content: flex-start;
+        h4{
+            font-size: 20px;
+            line-height: 43px;
+            color: @gray2;
+            font-weight: 700;
+            font-family: "Open Sans";
+            text-align: center;
+        }
+        hr{
+            width: 64px;
+            border: 1px solid @orange;
+            margin: 0px;
+        }    
+        p{
+            font-size: 14px;
+            line-height: 20px;
+            color: @gray_light;
+            font-weight: 400;
+            font-family: "Open Sans";
+        }
+    }
+}

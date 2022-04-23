@@ -1,0 +1,83 @@
+@import "../vars";
+
+.feature1_div{
+    background-color: @gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5%;
+
+    .tabs_div{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        div{
+            width: 110px;
+            height: 110px;
+            background-color: @gray_dark;
+            margin: 1px;
+
+            font-size: 15px;
+            line-height: 20px;
+            color: @white;
+            font-weight: 700;
+            font-family: "Open Sans";
+
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            cursor: pointer;
+        }
+        .tab1_div{
+            background-color: @orange2;
+        }
+    }
+    .tabstext_div{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        h4{
+            font-size: 20px;
+            color: @black;
+            font-weight: 700;
+            font-family: "Open Sans";
+            margin: 0px;
+            margin-bottom: 40px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 20px;
+            color: @gray_light;
+            font-weight: 400;
+            font-family: "Open Sans";
+            margin-bottom: 40px;
+        }
+        button{
+            font-size: 15px;
+            line-height: 20px;
+            color: @white;
+            font-weight: 600;
+            font-family: "Open Sans";
+            width: 120px;
+            height: 40px;
+            border-radius: 2px 2px 2px 2px;
+            background-color: @orange2;
+            border: none;
+            margin: 20px;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    }
+}

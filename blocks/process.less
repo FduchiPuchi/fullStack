@@ -1,0 +1,61 @@
+@import "../vars";
+
+.process_div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 600px;
+    h2{
+        font-size: 36px;
+        line-height: 43px;
+        color: @gray2;
+        font-weight: 400;
+        font-family: "Raleway";
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    hr{
+        width: 64px;
+        border: 1px solid @orange;
+        margin: 0px;
+        margin-bottom: 20px;
+    }  
+    p{
+        margin: 0px;
+        font-size: 14px;
+        line-height: 20px;
+        color: @gray_light;
+        font-weight: 400;
+        font-family: "Open Sans";
+        text-align: center;
+    }  
+    .awesome_blocks_div{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+
+        .awesome_div{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin-left: 3%;
+            margin-right: 3%;
+            h4{
+                font-size: 20px;
+                line-height: 24px;
+                color: @gray_dark;
+                font-weight: 700;
+                font-family: "Open Sans";
+                text-align: center;
+            }
+        }            
+    }
+}

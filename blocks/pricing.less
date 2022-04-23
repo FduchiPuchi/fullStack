@@ -1,0 +1,130 @@
+@import "../vars";
+
+.pricing_div{
+    height: 900px;
+    background-color: @gray;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    h2{
+        font-size: 36px;
+        line-height: 43px;
+        color: @gray2;
+        font-weight: 400;
+        font-family: "Raleway";
+        text-align: center;
+        margin: 0px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    hr{
+        width: 64px;
+        border: 1px solid @orange;
+        margin: 0px;
+        margin-bottom: 20px;
+    }  
+    p{
+        margin: 0px;
+        font-size: 14px;
+        line-height: 20px;
+        color: @gray_light;
+        font-weight: 400;
+        font-family: "Open Sans";
+        text-align: center;
+        font-style: italic;
+    }  
+    .pricing_slots_div{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        align-content: center;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        
+        .pricing_slot_div{
+            background-color: @gray_dark;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin: 2%;
+            width: 300px;
+            
+        }
+        h4{
+            font-size: 20px;
+            line-height: 24px;
+            color: @white;
+            font-weight: 700;
+            font-family: "Open Sans";
+            text-align: center;
+            margin: 15px;
+        }
+        hr{
+            border: 0px solid @orange;
+            margin: 0px;
+            border-top: 1px solid #ededed;
+            width: 100%;
+        }
+        .price_div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            height: 100px;
+            h5{
+                margin: 0px;
+                font-size: 94px;
+                line-height: 24px;
+                color: @white;
+                font-weight: 700;
+                font-family: "Raleway";
+                text-align: center;
+            }
+            .dollar{
+                font-size: 35px;
+            }
+        }   
+        p{
+            font-size: 14px;
+            line-height: 24px;
+            color: @white;
+            font-weight: 600;
+            font-family: "Open Sans";
+            text-align: center;
+            opacity: 50%;
+            margin: 20px;
+            
+        }
+        .most_popular_div{
+            width: 100%;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 14px;
+            line-height: 24px;
+            color: @white;
+            font-weight: 700;
+            font-family: "Open Sans";
+            text-align: center;
+            background-color: @orange2;
+        }    
+        .feature_div{
+            width: 100%;
+            font-size: 14px;
+            line-height: 24px;
+            color: @gray_light;
+            font-weight: 400;
+            font-family: "Open Sans";
+            text-align: center;
+            background-color: @white;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        } 
+    }
+}

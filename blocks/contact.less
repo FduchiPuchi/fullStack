@@ -1,0 +1,94 @@
+@import "../vars";
+
+.contack_us_div{
+    height: 600px;
+    background-color: @white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    h2{
+        font-size: 36px;
+        line-height: 43px;
+        color: @gray2;
+        font-weight: 400;
+        font-family: "Raleway";
+        text-align: center;
+        margin: 0px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    hr{
+        width: 64px;
+        border: 1px solid @orange;
+        margin: 0px;
+        margin-bottom: 20px;
+    }  
+    p{
+        margin: 0px;
+        font-size: 14px;
+        line-height: 20px;
+        color: @gray_light;
+        font-weight: 400;
+        font-family: "Open Sans";
+        text-align: center;
+        font-style: italic;
+    }  
+    input{
+        border: none;
+        border-bottom: 1px solid #d6d6d6;
+        width: 100%;
+        height: 30px;
+        margin: 0px;
+        margin-top: 40px;
+    }    
+    .inner_div{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        
+        .left_inner_div{
+            width: 40%;
+            flex: 0 1 auto;
+            font-size: 14px;
+            color: #bdbdbd;
+            font-weight: 400;
+            font-family: "Open Sans";
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: stretch;
+            height: 250px;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin: 0px;
+        }     
+        .right_inner_div{
+            width: 40%;
+            flex: 0 1 auto;            
+            .message{
+                height: 76%;
+            }
+        }   
+         
+    }
+    
+    button{
+        font-size: 15px;
+        line-height: 20px;
+        color: @white;
+        font-weight: 600;
+        font-family: "Open Sans";
+        width: 160px;
+        height: 40px;
+        border-radius: 2px 2px 2px 2px;
+        background-color: @orange2;
+        border: none;
+        margin-bottom: 50px;
+        cursor: pointer;
+    }   
+}
